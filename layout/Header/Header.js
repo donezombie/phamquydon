@@ -10,12 +10,16 @@ const listMenu = [
     path: "/",
   },
   {
-    name: "Our team",
-    path: "our-team",
+    name: "About me",
+    path: "about-me",
   },
   {
-    name: "Requirements",
-    path: "requirements",
+    name: "Skills",
+    path: "skills",
+  },
+  {
+    name: "Projects",
+    path: "projects",
   },
 ];
 
@@ -105,8 +109,8 @@ const WrapHumburger = () => {
 const Header = (props) => {
   return (
     <Navbar
-      bgColorHumburger="#141229"
-      bgColorNavbar="#141229"
+      bgColorHumburger="#fff"
+      bgColorNavbar="#fff"
       colorLine="#fff"
       renderHamburgerWrap={() => {
         return <WrapHumburger />;

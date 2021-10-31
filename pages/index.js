@@ -2,8 +2,9 @@ import React from "react";
 
 import useScrollProgressBar from "../hooks/useScrollProgressBar";
 import SpaceContainer from "../components/SpaceContainer";
-import OurTeamSection from "../components/OurTeam";
-import RequirementsSection from "../components/Requirements";
+import AboutMeSection from "../components/Sections/AboutMeSection";
+import SkillsSection from "../components/Sections/SkillsSection";
+import ProjectsSection from "../components/Sections/ProjectsSection";
 
 export default function Index() {
   useScrollProgressBar();
@@ -11,11 +12,15 @@ export default function Index() {
   return (
     <div className="root">
       <SpaceContainer>
-        <OurTeamSection />
+        <AboutMeSection />
       </SpaceContainer>
 
       <SpaceContainer>
-        <RequirementsSection />
+        <SkillsSection />
+      </SpaceContainer>
+
+      <SpaceContainer>
+        <ProjectsSection />
       </SpaceContainer>
     </div>
   );

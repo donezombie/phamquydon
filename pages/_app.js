@@ -43,7 +43,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <Provider store={store}>
       <Head>
-        <title>The clowns team</title>
+        <title>Phạm Phú Quý Đôn</title>
       </Head>
       <div id="dzb-progress-bar" />
       {loading ? (

@@ -10,14 +10,51 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Play", sans-serif;
+  font-family: "Roboto", sans-serif;
   min-height: -webkit-fill-available;
-  background-color: #141229;
+  background-color: #fff;
   color: $text-color;
 }
 
 .wow {
   visibility: hidden;
+}
+
+.sub-text {
+  @include subtitle;
+  font-weight: 500;
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 [id]::before {
@@ -45,7 +82,7 @@ hr {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: auto;
 }
 .space-container {
