@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "name": "Phạm Phú Quý Đôn",
+    "role": "Super junior developer",
+    "avatar": "/static/assets/members/don.jpeg",
+    "quote": "Chỉ có làm, chịu khó, cần cù thì bù siêng năng, chỉ có làm thì mới có ăn.<br /> Những cái loại không làm mà đòi có ăn thì ...",
+    "socialMedia": [
+      {
+        "name": "facebook",
+        "link": "https://facebook.com/donezombiee"
+      },
+      {
+        "name": "instagram",
+        "link": "https://instagram.com/donezombiee"
+      },
+      {
+        "name": "github",
+        "link": "https://github.com/donezombie"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Tạ Hồng Hải",
+    "role": "Developer",
+    "avatar": "/static/assets/members/honghai.jpg",
+    "styleAvatar": {
+      "objectPosition": "top"
+    },
+    "quote": "Ý chí kiên cường nhưng trèo tường phải có thang <br />Bản lĩnh thì đầy nhưng đói thì vẫn phải ăn",
+    "socialMedia": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/honghai.2501"
+      },
+      {
+        "name": "github",
+        "link": "https://github.com/Din0Dev"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Nguyễn Quang Thắng",
+    "role": "Developer",
+    "avatar": "/static/assets/members/thang.jpeg",
+    "styleAvatar": {
+      "objectPosition": "bottom"
+    },
+    "quote": "Stay close to people who feel like sunshine",
+    "socialMedia": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/thang.nguyenquang.18041"
+      },
+      {
+        "name": "github",
+        "link": "https://github.com/thangnq1007"
+      }
+    ]
+  }
+]
