@@ -111,7 +111,7 @@ const Header = (props) => {
     <Navbar
       bgColorHumburger="#fff"
       bgColorNavbar="#fff"
-      colorLine="#fff"
+      colorLine="#000"
       renderHamburgerWrap={() => {
         return <WrapHumburger />;
       }}

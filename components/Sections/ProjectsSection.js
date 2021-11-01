@@ -12,21 +12,25 @@ const ProjectsSection = (props) => {
       logo: "",
       name: "Textback",
       description: "TextbackTextbackTextbackTextbackTextbackTextbackTextback",
+      link: "",
     },
     {
       logo: "",
       name: "Textback1",
       description: "TextbackTextbackTextbackTextbackTextbackTextbackTextback",
+      link: "",
     },
     {
       logo: "",
       name: "Textback2",
       description: "TextbackTextbackTextbackTextbackTextbackTextbackTextback",
+      link: "",
     },
     {
       logo: "",
       name: "Textback3",
       description: "TextbackTextbackTextbackTextbackTextbackTextbackTextback",
+      link: "",
     },
   ];
 
@@ -36,18 +40,20 @@ const ProjectsSection = (props) => {
       <Title title="Projects" />
       <div className="content">
         <div className="left">
-          <ul className="projects">
+          <div className="projects-list">
             {projectList.map((el, index) => (
-              <li
+              <a
                 key={el.name}
                 className="project wow fadeIn"
                 data-wow-delay={`${0.1 * (index + 1)}s`}
+                href={el.link}
+                target="_blank"
               >
                 <h4>{el.name}</h4>
-                <span className="sub-text">{el.description}</span>
-              </li>
+                <h6 className="sub-text">{el.description}</h6>
+              </a>
             ))}
-          </ul>
+          </div>
         </div>
         <div className="right">
           <img src="/static/assets/project.svg" alt="project" />
