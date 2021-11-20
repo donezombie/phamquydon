@@ -189,4 +189,30 @@
       }
     }
   }
+
+  .other-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+
+    .project {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      border-radius: 0.25rem;
+      box-shadow: $box-shadow-common;
+
+      word-break: break-word;
+      transition: 0.3s ease-out;
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
 }

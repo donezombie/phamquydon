@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
           />
           <script src="/static/js/wow.min.js" />
         </Head>
-        <body>
+        <body className="custom-scroll">
           <Main />
           <NextScript />
         </body>
