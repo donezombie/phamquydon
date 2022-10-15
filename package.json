@@ -42,5 +42,8 @@
     "smoothscroll-polyfill": "^0.4.4",
     "window-or-global": "^1.0.1",
     "yup": "^0.28.5"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
