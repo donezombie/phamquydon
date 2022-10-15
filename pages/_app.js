@@ -42,24 +42,19 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
     <Provider store={store}>
-      <Head>
-        <title>Phạm Phú Quý Đôn</title>
-      </Head>
       <div id="dzb-progress-bar" />
       {loading ? (
         <LoadingPage />
       ) : (
         <Fragment>
-          <Header />
-          <ScrollToTop />
-          <Body>
-            <div className="container wow fadeIn">
-              {/* <div id="nprogress" /> */}
-              <Component {...pageProps} />
-            </div>
-          </Body>
+          {/* <Header /> */}
+          {/* <ScrollToTop /> */}
+
+          {/* <div id="nprogress" /> */}
+          <Component {...pageProps} />
+
           {/* <GoogleMaps /> */}
-          <Footer />
+          {/* <Footer /> */}
         </Fragment>
       )}
     </Provider>
